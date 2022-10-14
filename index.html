@@ -9,9 +9,9 @@
   </head>
   <body class="page">
     <header class="header">
-      <logo class="logo logo_place_header">
+      <div class="logo logo_place_header">
         <img src="/images/logo_place_header.svg" alt="Logo" />
-      </logo>
+      </div>
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">
         Какие современные и эффективные подходы к обучению вы можете
@@ -26,7 +26,7 @@
       <div class="header__square-pic"></div>
     </header>
     <section class="content">
-      <description class="description">
+      <div class="description">
         <div class="two-columns">
           <div class="two-columns__brief">
             <h4 class="two-columns__brief_text">Главные проблемы в обучении</h4>
@@ -56,8 +56,8 @@
             </li>
           </ul>
         </div>
-      </description>
-      <digits class="digits">
+      </div>
+      <div class="digits">
         <div class="section-title_team_white">Цифры и факты</div>
         <div class="section-subtitle_team_white">Про учёбу и мозг</div>
         <div class="table_team_white">
@@ -106,15 +106,15 @@
             <li class="table__text_team_white">Открытие условного рефлекса</li>
           </ul>
         </div>
-      </digits>
-      <feynman class="feynman">
+      </div>
+      <div class="feynman">
         <div class="feynman__title">Метод Фейнмана</div>
         <div class="feynman__subtitle">Выучить и не забыть.</div>
         <div class="feynman__link">
           <a href="#"><span>Подробнее &#8594;</span></a>
         </div>
-      </feynman>
-      <kaufman class="kaufman">
+      </div>
+      <div class="kaufman">
         <div class="section-title_team_black">Принципы обучения</div>
         <div class="section-subtitle_team_black">От Джоша Кауфмана</div>
         <div class="table_team_black">
@@ -177,9 +177,12 @@
             </li>
           </ul>
         </div>
-        <img class="kaufman-triangle" src="/images/kaufman-triangle.svg" alt="triangle">
-        </div>
-      </kaufman>
+        <img
+          class="kaufman-triangle"
+          src="/images/kaufman-triangle.svg"
+          alt="triangle"
+        />
+      </div>
     </section>
     <footer class="footer">
       <div class="footer__columns">
@@ -191,20 +194,43 @@
         </div>
         <div class="footer__column_content_info">
           <div class="footer__column-heading">О практикуме</div>
-            <ul class="footer__column-links">
-              <li><a class="footert__column footert__column-links_text" href="#">Главная</a></li>
-              <li><a class="footert__column footert__column-links_text" href="#">Концепция</a></li>
-              <li><a class="footert__column footert__column-links_text" href="#">Наставники</a></li>
-            </ul>
+          <ul class="footer__column-links">
+            <li>
+              <a class="footert__column footert__column-links_text" href="#"
+                >Главная</a
+              >
+            </li>
+            <li>
+              <a class="footert__column footert__column-links_text" href="#"
+                >Концепция</a
+              >
+            </li>
+            <li>
+              <a class="footert__column footert__column-links_text" href="#"
+                >Наставники</a
+              >
+            </li>
+          </ul>
         </div>
         <div class="footer__column_content_social">
           <div class="footer__column-heading">Соцсети</div>
-            <ul class="footer__column-links">
-              <li><a class="footert__column footert__column-link_youTube" href="#">YouTube</a></li>
-              <li><a class="footert__column footert__column-link_vk" href="#">ВКонтакте</a></li>
-              <li><a class="footert__column footert__column-link_tikTok" href="#">TikTok</a></li>
-            </ul>
-        </div>
+          <ul class="footer__column-links">
+            <li>
+              <a class="footert__column footert__column-link_youTube" href="#"
+                >YouTube</a
+              >
+            </li>
+            <li>
+              <a class="footert__column footert__column-link_vk" href="#"
+                >ВКонтакте</a
+              >
+            </li>
+            <li>
+              <a class="footert__column footert__column-link_tikTok" href="#"
+                >TikTok</a
+              >
+            </li>
+          </ul>
         </div>
       </div>
     </footer>
