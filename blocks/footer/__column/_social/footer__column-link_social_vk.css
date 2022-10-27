@@ -1,0 +1,8 @@
+.footer__column-link_social_vk::before {
+  content: url(../../../../images/vk_color_white.svg);
+  margin-right: 10px;
+}
+
+.footer__column-link_social_vk:hover {
+  opacity: 0.7;
+}

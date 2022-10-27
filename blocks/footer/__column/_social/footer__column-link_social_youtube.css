@@ -1,0 +1,8 @@
+.footer__column-link_social_youtube::before {
+  content: url(../../../../images/youtube-icon.svg);
+  margin-right: 10px;
+}
+
+.footer__column-link_social_youtube:hover {
+  opacity: 0.7;
+}

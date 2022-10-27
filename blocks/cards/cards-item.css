@@ -1,0 +1,6 @@
+.cards-item {
+  width: 240px;
+  flex-flow: column;
+  text-align: center;
+  list-style-type: none;
+}

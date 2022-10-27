@@ -1,0 +1,8 @@
+.footer__column-link_social_tiktok::before {
+  content: url(../../../../images/tiktok-icon.svg);
+  margin-right: 10px;
+}
+
+.footer__column-link_social_tiktok:hover {
+  opacity: 0.7;
+}
